@@ -6,8 +6,8 @@ in the LICENSE file at https://github.com/ugliara-fellipe/ugliara-fellipe.github
 */
 
 article {
-  font-size: 17px;
-  margin: 2.1em 1.3em 2.1em 1.3em;
+  font-size: 15px;
+  margin: 2.1em 0 2.1em 0;
 }
 
 article .title {
@@ -16,7 +16,7 @@ article .title {
 }
 
 article .info {
-  font-size: 17px;
+  font-size: 14px;
   margin-bottom: 2em;
   font-family: serif;
 }
@@ -25,7 +25,7 @@ article h1 {
   margin: 0.3em 0em 0.2em 0em;
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 25px;
   font-variant: small-caps;
 }
 
@@ -35,7 +35,7 @@ article h2 {
   text-align: center;
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 21px;
   font-variant: small-caps;
 }
 
@@ -63,7 +63,7 @@ article h2:after {
 }
 
 article h3 {
-  margin: 3.1em 0em 0.9em 0em;
+  margin: 2.4em 0em 1em 0em;
   font-family: sans-serif;
   font-weight: normal;
   font-size: 21px;
@@ -77,37 +77,34 @@ article p {
 
 article strong {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+article strong a{
+  font-size: 15px;
 }
 
 article em {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 article blockquote {
-  border-left: 4px solid #BBB;
+  border-left: 5px solid #BBB;
   padding: 0em 0em 0em 0.35em;
   color: #555;
+  background-image:  linear-gradient(
+    to right, rgba(241, 241, 241, 0.9) , rgba(241, 241, 241, 0));
   margin: 1.6em 0em 1.6em 0.1em;
 }
 
-article pre {
-  border: 1px solid;
-  border-image: linear-gradient(
-    to right, rgba(185,185,185,1), rgba(185,185,185,0)) 1;
-  border-left: 0px;
-  border-right: 0px;
-  color: #6C6C6C;
-  page-break-inside: avoid;
-  font-family: monospace;
-  line-height: 170%;
-  margin: 1.6em 0.1em 1.6em 0em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 0.6em 0.17em 0.7em 0.17em;
-  display: block;
-  font-size: 15px;
+article blockquote.alert {
+  border-left: 5px solid rgb(201, 167, 167);
+  padding: 0em 0em 0em 0.35em;
+  color: #555;
+  background-image:  linear-gradient(
+    to right, rgba(255, 234, 234, 0.8) , rgba(255, 234, 234, 0));
+  margin: 1.6em 0em 1.6em 0.1em;
 }
 
 article ol {
@@ -124,17 +121,4 @@ article ul {
   list-style-position: inside;
   text-align: left;
   line-height: 1.6em;
-}
-
-.horizontal-scroll {
-  overflow: auto;
-}
-
-.illustration {
-  margin: 1em 0em 0.4em 0em;
-}
-
-article figcaption {
-  margin: 0em 0em 1em 0em;
-  font-size: 17px;
 }
