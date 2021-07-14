@@ -132,8 +132,7 @@ in the LICENSE file at https://github.com/ugliara-fellipe/ugliara-fellipe.github
     display: grid;
     grid-column-gap: 10px;
     grid-row-gap: 15px;
-    grid-template-rows: 2;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 90px 1fr;
   }
 
   .info .text {
